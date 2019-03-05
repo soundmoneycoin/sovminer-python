@@ -1,0 +1,5 @@
+[settings]
+rpc = http://localhost:8545
+sender = [your-ethereum-address]
+delay = 30
+gasprice = 3000000000
