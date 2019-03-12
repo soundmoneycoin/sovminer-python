@@ -6,6 +6,8 @@ SoundMoneyCoin CLI miner. Requires an Ethereum node to connect to. It should wor
 $ geth --syncmode light --rpc
 ```
 
+It might take a while for geth to fully sync. You also need to [create a wallet for mining and unlock it](https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts). Don't forget to send a little bit of ETH to the wallet for transaction fees.
+
 ## Fair Mining 
 
 You can configure this miner to mine at a rapid pace. Yes, this will get you a lot of SOV - but it will also diminish the value of SOV besides clogging the Ethereum network. We keeping the default of 1 transaction per 5 minutes. Remember, you'll be better off holding 1 SOV that's worth $10,000 than holding 10,000 SOV that are worth $0 because of your actions. 
