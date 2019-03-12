@@ -1,6 +1,10 @@
 # SoundMoneyCoin Miner Python
 
-SoundMoneyCoin CLI miner. Requires an Ethereum node to connect to.
+SoundMoneyCoin CLI miner. Requires an Ethereum node to connect to. It should work with a geth light node. Run geth with rpc enabled:
+
+```
+$ geth --syncmode light --rpc
+```
 
 ## Fair Mining 
 
