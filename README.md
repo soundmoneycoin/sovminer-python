@@ -6,7 +6,7 @@ SoundMoneyCoin CLI miner. Requires an Ethereum node to connect to. It should wor
 $ geth --syncmode light --rpc
 ```
 
-It might take a while for geth to fully sync. You also need to [create a wallet for mining and unlock it](https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts). Don't forget to send a little bit of ETH to the wallet for transaction fees.
+It might take a while for geth to fully sync. You also need to [create a wallet and nlock it](https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts). The address of that wallet needs to be entered into `config.ini`. Don't forget to send a little bit of ETH to the wallet for transaction fees.
 
 ## Fair Mining 
 
